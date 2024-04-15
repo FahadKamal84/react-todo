@@ -9,6 +9,11 @@ function App() {
 
   return (
     <>
+      <form>
+        <label htmlFor="todo">Enter Todo:</label>
+        <input type="text" name="todoitem" id="todo"></input>
+        <input type="submit" value="Submit"></input>
+      </form>
       <TodoList />
       
     </>
