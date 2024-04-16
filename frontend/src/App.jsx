@@ -3,7 +3,7 @@ import './App.css'
 import TodoList from "./TodoList"
 
 function App() {
-  const [todos, setTodos] = useState({})
+  const [todos, setTodos] = useState("")
 
   const handleChange = (event) => {
     setTodos(event.target.name)
